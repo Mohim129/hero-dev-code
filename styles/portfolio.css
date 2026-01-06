@@ -37,6 +37,10 @@
     font-weight: bold;
     cursor: pointer;
 }
+.resume-btn{
+    text-align: center;
+    
+}
 
 /* main style */
 header{
@@ -107,7 +111,7 @@ nav ul a{
     vertical-align: middle;
 }
 
-#about{
+#about, #skills, #resume{
     padding-top: 130px;
 }
 #about-container{
@@ -148,10 +152,6 @@ nav ul a{
     color: #474747;
 }
 
-#skills{
-    padding-top: 130px;
-
-}
 .skills-container{
     width: 71.25%;
     max-width: 1140;
@@ -182,4 +182,84 @@ nav ul a{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+.resume-container{
+    width: 71.25%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #757575;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container{
+    width: 71.25%;
+    max-width: 1140px;
+    margin: 0% auto;
+    display: flex;
+    gap: 116px;
+}
+.social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    color:#181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+.icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
